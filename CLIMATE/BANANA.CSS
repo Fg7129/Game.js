@@ -1,0 +1,35 @@
+#colorButton {
+
+    padding: 10px 20px;
+    
+    font-size: 16px;
+    
+    color: #fff;
+    
+    background-color: #3498db; /* Initial color */
+    
+    border: none;
+    
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+    }
+
+#buttoncolor {
+
+        padding: 10px 20px;
+        
+        font-size: 16px;
+        
+        color: #0000ff;
+        
+        background-color: #0dff00; /* Initial color */
+        
+        border: none;
+        
+        border-radius: 5px;
+        
+        cursor: pointer;
+        
+        }

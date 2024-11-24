@@ -1,0 +1,179 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #001eff;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.todo-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    background-color: #fcf400;
+    border: solid 1px #ff0000;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.checkbox-div {
+    align-self: center;
+    padding: 3px;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.input-form>#input,
+#description {
+    background-color: #ffffff;
+    border: solid 1px #00000043;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.input-form>#input::placeholder,
+#description::placeholder {
+    color: #00fffb;
+}
+
+button {
+    border-radius: 3px;
+    padding: 5px;
+    /* height: 100%; */
+    transition: all 150ms ease-out;
+    border: solid 1px #000000;
+}
+
+button:hover {
+    border: solid 1px #2fff00;
+    transition: all 150ms ease-in;
+}
+
+.buttons-form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 100%;
+}
+
+.add-btn {
+    background-color:chartreuse;
+}
+
+.delete-btn {
+    background-color: #ffcfcf;
+}
+
+.edit-btn {
+    background-color: #fffcbe;
+}
+.update-btn {
+    background-color: #bef3ff;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.finished-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.task-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #ffc8a4;
+    border: solid 1px #00000020;
+    transition: all 150ms ease-out;
+    color: #222222;
+    border-radius: 3px;
+}
+.finished{
+    background-color: rgb(216, 216, 216);
+    border: solid 1px #00000020;
+}
+
+
+.task-body:hover {
+    /* background-color: #cecece78; */
+    /* transform: scale(1.01); */
+    border: solid 1px #00000062;
+    transition: all 150ms ease-in;
+}
+
+.task-x {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.task-header {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.task-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .container {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: auto;
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+

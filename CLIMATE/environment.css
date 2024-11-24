@@ -1,0 +1,57 @@
+body {
+    background-color: white; /* Light gray background color */
+}
+
+h1 {
+    color: navy; /* Change the color of the heading */
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+} 
+
+.he{
+    background-color: darkred;
+}
+
+.mon{
+    background-color: aquamarine;
+
+}
+
+.muse{
+   background-color: blue;
+}
+
+.histo{
+   background-color: blueviolet;
+}
+
+
+.cultu{
+   background-color: chocolate;
+}
+
+.impo{
+background-color: chartreuse;
+}
+
+.way{
+    background-color: cyan;
+}  
+
+.id{
+    background-color: indigo;
+}  
+
+.sites{
+    background-color: lightsalmon;
+}
+
+.welcome{
+    background-color: darkviolet;
+}

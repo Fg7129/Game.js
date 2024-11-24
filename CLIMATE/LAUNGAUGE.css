@@ -1,0 +1,90 @@
+body {
+    background-color: white; /* Light gray background color */
+}
+
+h1 {
+    color: rgb(38, 206, 16); /* Change the color of the heading */
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.he{
+    background-color: aqua;
+    border: aqua;
+}
+
+.pic{
+    background-color: red;
+    border: 20px solid rgb(255, 0, 0);
+}
+
+.yellow{
+    background:chocolate;
+    border: 20px solid chocolate;
+    
+}
+
+.gold{
+    background-color: chartreuse;
+    border:20px solid chartreuse;
+}
+
+.ban{
+    background-color: cyan;
+    border:20px solid cyan ;
+}
+
+.nil{
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+.cush{
+   background-color:burlywood ; 
+   border: burlywood;
+}
+
+.cushi{
+    background-color: brown;
+    border: brown;
+}
+
+.semi{
+    background-color: darkred;
+    border: darkred;
+}
+
+.semit{
+    background-color: crimson;
+    border: crimson;
+}
+
+.euro{
+    background-color: goldenrod;
+    border: goldenrod;
+}
+
+.europ{
+    background-color: lawngreen;
+    border: lawngreen;
+}
+
+.site{
+    background-color: aquamarine;
+    border: aquamarine;
+}
+
+.welcome{
+    background-color: rgb(171, 0, 205);
+    border: rgb(171, 0, 205);
+}
+
+img{
+    object-fit: contain;
+}
+

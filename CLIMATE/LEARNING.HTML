@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="header">
+
+    <link rel="stylesheet" href="LEARNING.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    
+
+    <meta name="title" content="Simple JS Task Todo">
+    <meta name="description" content="A simple JavaScript aplication for manage your tasks">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/frodrigue60/Simple-JS-Task-Todo/master/todo.png">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/frodrigue60/Simple-JS-Task-Todo/master/todo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta property="og:site_name" content="frodrigue60 github" />
+    <meta property="og:image:alt" content="JS task todo banner" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@frodrigue60" />
+    <meta name="twitter:creator" content="@frodrigue60" />
+    <meta property="og:title" content="Simple JS Task Todo" />
+    <meta property="og:description" content="A simple JavaScript aplication for manage your tasks" />
+
+    </div>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1>Simple JS Task Todo</h1>
+        </center>
+        <div class="todo-body">
+            <div class="task-form">
+                <div class="input-form">
+                    <input id="input" type="text" placeholder="Task title">
+                    <textarea placeholder="Task description" id="description" cols="" rows="1"></textarea>
+                </div>
+                <div class="buttons-form">
+                    <button id="addTaskBtn" class="add-btn" onclick="addTask()">Add Task</button>
+                    <button id="updateBtn" class="update-btn" hidden>Update</button>
+                    <button id="cancelBtn" hidden>Cancel</button>
+                </div>
+            </div>
+            <br>
+            <div class="tasks">
+                <!-- <div class="task-body">
+                    <div class="checkbox-div">
+                        <input class="checkbox" type="checkbox" name="" id="check" value="1">
+                    </div>
+                    <div class="task-x">
+                        <div class="task-header" id="task_1">
+                            <span id="task-title" class="">task title</span>
+                            <span id="task-description" class="">Task description lore</span>
+                        </div>
+                        <div class="task-buttons">
+                            <button class="delete-btn" onclick="">Delete</button>
+                            <button onclick="" class="update-btn">Edit</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div id="no-tasks" hidden>
+                <h3>No tasks</h3>
+            </div>
+            <br>
+            <div id="finished-tasks" hidden>
+                <h3>Finished Tasks</h3>
+            </div>
+            <div class="finished-tasks">
+                <!-- <div class="task-body">
+                    <div class="checkbox-div">
+                        <input class="checkbox" type="checkbox" name="" id="check" value="1">
+                    </div>
+                    <div class="task-x">
+                        <div class="task-header" id="task_1">
+                            <span id="task-title" class="strike">task title</span>
+                            <span id="task-description" class="strike">Task description lore</span>
+                        </div>
+                        <div class="task-buttons">
+                            <button class="delete-btn" onclick="">Delete</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

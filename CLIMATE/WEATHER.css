@@ -1,0 +1,66 @@
+body {
+    background-color: white; /* Light gray background color */
+}
+
+h1 {
+    color: navy; /* Change the color of the heading */
+}
+
+#Mountain{
+   background-color:blue;
+}
+
+
+#desert{
+    background-color:brown;
+}
+
+
+#tropical{
+    background-color:rgb(195, 0, 255);
+}
+
+
+img{
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#pic{
+    background-color: blue;
+} 
+
+.sites{
+    background-color: rgb(0, 255, 34);
+}
+
+.welcome{
+    background-color: blueviolet;
+}
+
+.id{
+    background-color: blue;
+}
+
+.cool{
+    background-color: chartreuse;
+} 
+
+.hot{
+    background-color:purple ;
+}
+
+.video{
+    background-color: darkred;
+    border:darkred;
+}
+
+.he{
+    background-color: springgreen;
+}
+
+.pic{
+    background-color: brown;
+    
+}
