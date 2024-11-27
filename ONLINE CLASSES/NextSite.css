@@ -55,3 +55,22 @@ a{
 .child2{
     background-color:rgb(234, 255, 0) ;
 }
+
+.more{
+    background-color: aqua;
+    border: 1px solid aqua;
+    color:red;
+    text-decoration: none;
+    border-right: 50%;
+    border-left: 50%;
+    border-top: 50%;
+    border-bottom: 30%;
+    height: 500px;
+    width: 4000px;
+    padding: 4px;
+
+}
+
+.more2{
+    background-color:yellow ;
+}
