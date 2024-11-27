@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
    
 }
 
@@ -27,7 +27,7 @@ p{
 
 .welcome {
     background-color: chartreuse;
-    color: crimson;
+    color: rgb(0, 0, 0);
 }
 
 a{
@@ -51,7 +51,7 @@ a{
 }
 
 .next3{
-    background-color:rgb(255, 0, 0) ;
+    background-color:rgb(246, 255, 0) ;
 }
 
 .google{
